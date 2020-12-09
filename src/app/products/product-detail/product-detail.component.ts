@@ -3,7 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ProductService } from 'src/app/services/product.service';
-import { threadId } from 'worker_threads';
 import { Product } from '../product.interface';
 
 @Component({
